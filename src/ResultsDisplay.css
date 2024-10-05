@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+  }
+  
+  .results-display {
+    background-image: url(./bg.jpg);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    display: grid;
+  
+  }
+  
+  .results-header  h1{
+    margin-bottom: 20px; /* Space between header and container */
+    font-size: 24px; /* Header font size */
+  }
+  
+  .results-container {
+    width: 400px; /* Fixed width for the results container */
+    border: 2px solid #ccc; /* Border around the results container */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    background-color: #f7bebe5e; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
+  .actionns {
+    margin: 20px 0; /* Margin above and below action buttons */
+  }
+  
+  .results-container button {
+    margin: 5px; /* Space between buttons */
+    padding: 10px 15px; /* Button padding */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .home-button {
+    margin-top: 20px; /* Margin above home button */
+    background-color: #28a745; /* Green color for home button */
+  }
+  
+  .home-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  

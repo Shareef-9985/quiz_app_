@@ -1,0 +1,118 @@
+.quiz-creation-form {
+ background-image: url('./abg.jpg');
+ 
+/* height: 100; */
+    /* width: 100%; */
+    background-size: cover;  /* Ensures the background image covers the entire container */
+    background-position: center;  /* Centers the background image */
+    justify-content: center;
+    color: #343434;
+    padding: 20px;
+    /* display: flex; /* Added to make flex properties work */
+    /* flex-direction: column; Aligns children vertically */
+  }
+  
+
+.quiz-creation-form h1 {
+  text-align: center; /* Centers the heading */
+  background-color: rgba(255, 255, 255, 0.5); /* Minimum transparent white background */
+  /* display: inline-block; To fit the background around the text */
+  padding: 10px; /* Adds padding around the text */
+  border-radius: 10px; /* Optional: round the corners */
+ /* Makes sure the heading takes the full width to allow centering */
+ margin-bottom: 10px;
+}
+
+  
+.quiz-creation-form .form {
+    margin-top: 30px;
+    margin-bottom: 11px;
+  }
+  
+  .quiz-creation-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    /* background-color: #24c25122;
+    width: 300px; */
+  }
+  
+  .quiz-creation-form input, textarea {
+    width: 300px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #14c84100;
+    color: #fff;
+
+  }
+  select
+  {
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* color: rgb(0, 0, 0); */
+    font-weight: bold;
+    font-size: large;
+    background-color: #f1f1f15e;
+  }
+/*   
+  .form-actions button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2b70d1a4;
+    color: white;
+    cursor: pointer;
+    transition: all .5s ease;
+  }
+  
+  button[type="button"] {
+    background-color: #dc35469b; /* Red for cancel */
+  /* } */
+  
+  /* .form-actions button:hover { */
+    /* opacity:0.9; */
+  /* } */
+
+  .form-action
+  {
+    display: flex;
+  }
+  
+  .form-action button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    transition:all .5s ease;
+    color: #fff;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    background-color : transparent;
+    /* padding: 10px; */
+    outline: none;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+.cancel :hover {
+    color: #1b2632;
+    background-color: #c22424;
+    /* width: 200px; */
+}
+
+.save button:hover {
+  color: #1b2632;
+  background-color: #24c251;
+}
+

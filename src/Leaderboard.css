@@ -1,0 +1,55 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* .maincontainer
+{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    height: 100%;
+} */
+
+
+
+.leaderboard-container {
+    width: 400px;
+    margin:  auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f96b;
+    /* font-size: x-larger; */
+    /* color: red; */
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.maincontainer h1 {
+    /* margin-bottom: 10px; */
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.leaderboard-container h2 {
+    margin-bottom: 20px;
+}
+
+.leaderboard-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.leaderboard-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.user-rank {
+    margin-top: 20px;
+    font-size: 18px;
+}

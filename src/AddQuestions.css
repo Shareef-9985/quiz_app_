@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  label
+  {
+    /* background-color: ; */
+    color: #fff;
+  }
+  .add-question-screen {
+    background-image: url(./abg.jpg);
+    background-size:cover;
+    background-position: center;
+    text-align: center; /* Center text */
+    /* Full viewport height */
+    display: grid;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* background-color: #d01414d3; Light background color */
+  }
+
+
+  .add-question-screen h1 {
+
+  text-align: center; /* Centers the heading */
+  background-color: rgba(255, 255, 255, 0.5); /* Minimum transparent white background */
+  /* display: inline-block; To fit the background around the text */
+  padding: 10px; /* Adds padding around the text */
+  border-radius: 10px; /* Optional: round the corners */
+ /* Makes sure the heading takes the full width to allow centering */
+ margin-bottom: 10px;
+
+  }
+  
+  .add-header {
+    margin-bottom: 20px; /* Space between header and form */
+    font-size: 24px; /* Header font size */
+  }
+  
+  .question-form {
+    width: 400px; /* Fixed width for the form container */
+    border: 2px solid #ccc; /* Border around the form container */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    background-color: #cea6a63e; /* White background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  }
+  
+  .form-group {
+    /* margin: 15px 0; Space between form groups */
+    text-align: left; /* Align text to the left */
+  }
+  
+  
+  .form-actions {
+    margin-top: 20px; /* Space above action buttons */
+  }
+  
+  .form-actions  button {
+    margin: 5px; /* Space between buttons */
+    padding: 10px 15px; /* Button padding */
+    font-size: 16px; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for buttons */
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+
+    margin-right: 10px;
+    border: 3px solid white;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    font-size: large;
+    font-weight: 600;
+} 
+
+
+.question-form input {
+    width: 300px;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: #f1f1f100;
+    color: #fff;
+
+  }
+  
+
+

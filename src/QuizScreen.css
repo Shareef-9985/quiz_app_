@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+ 
+
+  }
+  
+  .qudgiz-screen {
+    text-align: center; /* Center header text */
+    background-image: url('./bgs.jpg');
+    /* background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% ); */
+    /* background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);    min-height: 100vh;  Ensures the container covers the full viewport height */
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    /* Ensures the background image covers the entire container */
+    /* background-position: center; */
+    /* Centers the background image */
+    /* justify-content: center; */
+    /* color: #f6f6f2; */
+    /* display: flex; Added to make flex properties work */
+    /* flex-direction: column; Aligns children vertically */
+  }
+  
+  .quiz-headdder {
+    /* margin-bottom: 20px; Space between header and container */
+    font-size: 60px; /* Header font size */
+  }
+  
+  .s-container {
+    width: 800px; /* Fixed width for the quiz container */
+    border-radius: 8px; /* Rounded corners */
+      /* background-color: #ffffff; Set a white background for the quiz */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    color: white;
+    /* border: 2px solid red; */
+    flex : 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    align-content: center;
+    margin-top: 80px;
+    margin-left: 170px;
+height: 200px;
+
+  }
+  
+  .quiz-bocdy {
+    margin-top: 20px;
+    /* color: red; */
+    text-align: start;
+    
+/*  */
+  }
+  
+  .optidfons {
+    margin: 20px 0; /* Margin above and below the options */
+    /* color: red;
+    border: 2px solid rgb(115, 0, 255); */
+
+
+  }
+  
+  .opdtion {
+    margin: 10px 0; /* Spacing between options */
+    text-align: left; /* Align option text to the left */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-items: left;
+    color: aqua;
+    /* color: red;
+    border: 2px solid red;
+    background-color: aqua; */
+
+  }
+
+  .opdtion label {
+    color :aliceblue
+  }
+
+  .opdtion input {
+    /* Space between the radio button and the label */
+    /* color: red; */
+    /* background-color: aqua; */
+    /* border: 2px solid red; */
+    width: 30px;
+  }
+  
+  .navigdation {
+    display: flex; /* Flex container for navigation buttons */
+    justify-content: space-between; /* Space between buttons */
+    margin: 20px 0; /* Margin above and below navigation buttons */
+  }
+
+  .navigdation button{
+    width: 200px;
+    padding: 10px;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    /* background-color: #007bff; */
+    color: aliceblue;
+    
+    /* background: rgb(208, 51, 213);
+  background: linear-gradient(90deg, rgb(135, 102, 165) 0%, rgb(155, 81, 150) 35%, rgba(0,212,255,1) 100%); */
+    font-size:large;
+    font-weight:600;
+    /* background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+  background-image: radial-gradient( circle farthest-corner at 0.2% 0.5%,  rgba(68,36,164,1) 3.7%, rgba(84,212,228,1) 92.7% );
+  
+ }
+  .tifmer {
+    text-align: right; /* Align timer text to the right */
+    font-weight: bold; /* Bold font for timer */
+    color: aliceblue;
+  }
+  
