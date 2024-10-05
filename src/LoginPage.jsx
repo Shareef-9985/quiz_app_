@@ -28,6 +28,8 @@ const LoginPage = () => {
     if(username===storedUsername && password===storedPassword){
     navigate('/home');
     setError('');
+    }else{
+      setError('No user found! please signup');
     }
   };
 
